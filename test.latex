@@ -1,0 +1,18 @@
+\begin{table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+horizon & mean\_qs\\
+\hline
+1 day & 0.2256251\\
+\hline
+2 day & 0.3128476\\
+\hline
+5 day & 0.3970842\\
+\hline
+6 day & 0.4096388\\
+\hline
+7 day & 0.6042876\\
+\hline
+\end{tabular}
+\end{table}
