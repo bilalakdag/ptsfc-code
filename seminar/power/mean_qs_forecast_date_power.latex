@@ -1,0 +1,25 @@
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Sat Mar 30 19:34:20 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrr}
+  \hline
+forecast\_date & mean\_qs\_qr & mean\_qs\_gb \\ 
+  \hline
+2023-11-15 & 0.95 & 0.49 \\ 
+  2023-11-22 & 1.59 & 0.83 \\ 
+  2023-11-29 & 2.52 & 0.46 \\ 
+  2023-12-06 & 1.61 & 1.19 \\ 
+  2023-12-13 & 1.14 & 0.86 \\ 
+  2023-12-20 & 1.63 & 1.85 \\ 
+  2024-01-10 & 1.71 & 0.66 \\ 
+  2024-01-17 & 2.04 & 1.46 \\ 
+  2024-01-24 & 1.08 & 2.69 \\ 
+  2024-01-31 & 0.61 & 0.72 \\ 
+  2024-02-07 & 1.50 & 1.06 \\ 
+  2024-02-14 & 1.87 & 0.61 \\ 
+   \hline
+\end{tabular}
+\caption{Average quantile scores per forecasting week for quantile regression and gradient boosting} 
+\label{power_mean_qs_forecast_date}
+\end{table}

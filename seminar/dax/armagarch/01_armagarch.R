@@ -103,6 +103,20 @@ fit_results[["norm5"]] <- fitdist(dax$ret5, "norm")
 fit_results[["cauchy5"]] <- fitdist(dax$ret5, "cauchy")
 fit_results[["t5"]] <- fitdist(dax$ret5, "t", start = list(df= 2))
 
+pdf("seminar/dax/armagarch/norm1.pdf")
+plot(fit_results$norm1)
+dev.off()
+
+pdf("seminar/dax/armagarch/cauchy1.pdf")
+plot(fit_results$cauchy1)
+dev.off()
+
+pdf("seminar/dax/armagarch/t1.pdf")
+plot(fit_results$t1)
+dev.off()
+
+
+
 summary(fit_results[["norm1"]])
 summary(fit_results[["cauchy1"]])
 summary(fit_results[["t1"]])

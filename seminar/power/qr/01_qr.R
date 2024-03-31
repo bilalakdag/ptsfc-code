@@ -123,9 +123,19 @@ df_ts <- tsibble(df_ts, index = date)
 decomp <- df_ts %>%
     model(stl = STL(gesamt))
 
+pdf("seminar/power/qr/stl.pdf", width = 10, height = 5)
 decomp %>%
     components() %>%
-    autoplot()
+    autoplot() +
+    xlab("Date") +
+    ylab("Daily Demand [1000 MWh]") +
+    theme_classic() +
+    theme(axis.text.x = element_text(size = 12),  # Adjust size as needed
+          axis.text.y = element_text(size = 12),  # Adjust size of axis tick labels as needed
+          axis.title.x = element_text(size = 14), # Adjust size of x-axis label
+          axis.title.y = element_text(size = 14), # Adjust size of y-axis label
+          panel.border = element_rect(color = "black", fill = NA, size = 1))  # Add panel border 
+dev.off()
 
 
 comp_ts <- decomp %>%

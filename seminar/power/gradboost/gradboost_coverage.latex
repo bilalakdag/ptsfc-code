@@ -1,0 +1,15 @@
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Fri Mar 29 03:29:48 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{rr}
+  \hline
+ & Coverage Probability \\ 
+  \hline
+50\% Interval & 0.40 \\ 
+  95\% Interval & 0.89 \\ 
+   \hline
+\end{tabular}
+\caption{Coverage probability for predicted electricity consumption using gradient boosting. } 
+\label{power_gradboost_coverage}
+\end{table}

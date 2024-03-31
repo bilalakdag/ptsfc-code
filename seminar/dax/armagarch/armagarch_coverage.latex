@@ -1,0 +1,15 @@
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Fri Mar 29 01:38:59 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{rr}
+  \hline
+ & Coverage Probability \\ 
+  \hline
+50\% Interval & 0.62 \\ 
+  95\% Interval & 0.95 \\ 
+   \hline
+\end{tabular}
+\caption{Coverage probability for predicted DAX returns using ARMA-GARCH. } 
+\label{dax_armagarch_coverage}
+\end{table}
