@@ -1,0 +1,21 @@
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Fri Mar 29 03:29:48 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrrr}
+  \hline
+horizon & qs0.025 & qs0.25 & qs0.5 & qs0.75 & qs0.975 & mean\_qs \\ 
+  \hline
+36 hour & 0.24 & 1.20 & 1.46 & 1.23 & 0.39 & 0.90 \\ 
+  40 hour & 0.21 & 1.24 & 1.63 & 1.20 & 0.28 & 0.91 \\ 
+  44 hour & 0.20 & 1.55 & 1.86 & 1.44 & 0.43 & 1.10 \\ 
+  60 hour & 0.79 & 2.03 & 1.87 & 1.49 & 0.19 & 1.27 \\ 
+  64 hour & 0.51 & 2.32 & 2.44 & 1.49 & 0.23 & 1.40 \\ 
+  68 hour & 0.20 & 1.34 & 1.61 & 0.96 & 0.20 & 0.86 \\ 
+  average across quantile & 0.36 & 1.61 & 1.81 & 1.30 & 0.29 & 1.07 \\ 
+   \hline
+\end{tabular}
+\caption{Quantile scores for predicted electricity consumption using gradient boosting. 
+                       Averaged over the 12 weeks relevant for the challenge.} 
+\label{power_gradboost_qs}
+\end{table}
